@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638497279202855546
-    m_Hash: 4079203195
+      ticks: 638500596883897930
+    m_Hash: 2730750124
   m_LockFileStatus:
     m_FilePath: C:/Users/hayat/RiderProjects/StudyMVP/MVPStudy/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638497062374975946
-    m_Hash: 3572642371
+      ticks: 638500609578550075
+    m_Hash: 256779881
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -322,12 +322,14 @@ m_ResolvedPackages:
     - 1.8.0-pre.2
     - 1.8.0
     - 1.8.1
+    - 1.8.2
     compatible:
     - 1.7.0
     - 1.8.0-pre.1
     - 1.8.0-pre.2
     - 1.8.0
     - 1.8.1
+    - 1.8.2
     recommended: 1.7.0
     deprecated: []
   dependencies:
@@ -2743,6 +2745,61 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 1.0.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: jp.hadashikick.vcontainer@https://github.com/hadashiA/VContainer.git?path=VContainer/Assets/VContainer#1.15.3
+  testable: 0
+  isDirectDependency: 1
+  version: 1.15.3
+  source: 5
+  resolvedPath: C:\Users\hayat\RiderProjects\StudyMVP\MVPStudy\Library\PackageCache\jp.hadashikick.vcontainer@f2afd2ac17
+  assetPath: Packages/jp.hadashikick.vcontainer
+  name: jp.hadashikick.vcontainer
+  displayName: VContainer
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: The extra fast DI (Dependency Injection) for Unity
+  status: 0
+  errors: []
+  versions:
+    all: []
+    compatible: []
+    recommended: 
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - DI
+  - Dependency Injection
+  - DI Container
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: https://vcontainer.hadashikick.jp/
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
