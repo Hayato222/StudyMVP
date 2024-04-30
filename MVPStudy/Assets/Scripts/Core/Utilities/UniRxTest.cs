@@ -10,7 +10,7 @@ namespace Core.Utilities
 {
     public class UniRxTest : MonoBehaviour
     {
-        private ReactiveProperty<int> _valueReactiveProperty = new ReactiveProperty<int>(0);
+        
 
     }
 }
