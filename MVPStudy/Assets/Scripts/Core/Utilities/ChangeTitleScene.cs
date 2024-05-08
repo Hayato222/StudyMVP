@@ -9,7 +9,7 @@ namespace Core.Utilities
     
     public class ChageTitleScene : MonoBehaviour
     {
-        float WaitTime = 5f;
+        /*float WaitTime = 5f;
         void Start()
         {
             Invoke("ChangeScene",WaitTime);
@@ -18,6 +18,6 @@ namespace Core.Utilities
         void ChangeScene()
         {
             SceneManager.LoadScene("Title");
-        }
+        }*/
     }
 }
