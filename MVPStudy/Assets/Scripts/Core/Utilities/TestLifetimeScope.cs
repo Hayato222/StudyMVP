@@ -11,10 +11,17 @@ public class TestLifetimeScope : LifetimeScope
     
     protected override void Configure(IContainerBuilder builder)
     {
-        builder.Register<Logger>(Lifetime.Singleton);
-        builder.Register<Calulator>(Lifetime.Singleton);
-        builder.Register<HogeClass>(Lifetime.Singleton);
+        //builder.Register<Logger>(Lifetime.Singleton);
+        //builder.Register<Calulator>(Lifetime.Singleton);
+        //builder.Register<HogeClass>(Lifetime.Singleton);
 
-        builder.RegisterComponent(testMonoBehaviour);
+        //builder.RegisterComponent(testMonoBehaviour);
+
+        builder.Register<EntryPointSample>(Lifetime.Singleton);
+        
+        builder.RegisterBuildCallback(objectResolver =>
+        {
+            objectResolver.Resolve<EntryPointSample>();
+        });
     }
 }

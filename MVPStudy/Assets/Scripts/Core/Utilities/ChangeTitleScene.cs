@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 namespace Core.Utilities
 {
     
-    public class ChageTitleScene : MonoBehaviour
+    public class ChangeTitleScene : MonoBehaviour
     {
         /*float WaitTime = 5f;
         void Start()
